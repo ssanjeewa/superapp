@@ -77,7 +77,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from server 
 
-  const response = await fetch('http://localhost:5001', {
+  const response = await fetch('https://superapp.onrender.com', {
     method: 'POST',
     headers: {
       'Content-type': 'application/json'
